@@ -1,0 +1,11 @@
+name: Bug report
+description: Report a problem with the togo media plugin
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes: { label: What happened?, description: Description + steps (file type, conversion, storage provider). }
+    validations: { required: true }
+  - type: input
+    id: version
+    attributes: { label: media / togo version }
